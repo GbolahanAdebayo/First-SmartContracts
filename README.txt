@@ -3,16 +3,16 @@ REMIX EXAMPLE PROJECT
 Remix example project is present when Remix loads for the very first time or there are no files existing in the File Explorer. 
 It contains 3 directories:
 
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one test file for 'Ballot' contract with unit tests in Solidity.
+1. 'contracts': Holds one "Hello World" contract which has been deployed on the Rinkeby Testnet, with it's contact address as " 0x226a2a5175b26ef929a6f2c5e373fc08102bdf89 ". It's been verified on etherscan. And here's the link; https://rinkeby.etherscan.io/tx/0xcb05945eeac4fca525d566bbb60ba3da197097a673535b6907472c71d90be7f2 
+2. 'scripts': Holds no scripts to deploy a contract yet.
 
-SCRIPTS
 
-The 'scripts' folder contains example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-Scripts have full access to the web3.js and ethers.js libraries.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
 
-Output from script will appear in remix terminal.
+.
+
+
+
+
+
+
